@@ -1,0 +1,97 @@
+2024-11-13 02:37:21,655 - INFO - Starting experiments and analysis...
+2024-11-13 02:37:21,656 - INFO - 
+Starting Planning Horizon experiments...
+2024-11-13 02:37:21,656 - INFO - Running experiment for Horizon 5
+2024-11-13 02:37:21,656 - INFO - 
+==================================================
+2024-11-13 02:37:21,656 - INFO - Starting experiment: Horizon 5
+2024-11-13 02:37:21,656 - INFO - Command: python rob831/hw4_part1/scripts/run_hw4_mb.py --exp_name q4_reacher_horizon5 --env_name reacher-hw4_part1-v0 --add_sl_noise --mpc_horizon 5 --num_agent_train_steps_per_iter 1000 --batch_size 800 --n_iter 15 --video_log_freq -1 --mpc_action_sampling_strategy 'random'
+2024-11-13 02:37:21,656 - INFO - Start time: 2024-11-13 02:37:21
+2024-11-13 02:48:07,751 - INFO - Experiment completed successfully
+2024-11-13 02:48:07,751 - INFO - Duration: 0:10:46.095480
+2024-11-13 02:48:09,754 - INFO - Running experiment for Horizon 15
+2024-11-13 02:48:09,754 - INFO - 
+==================================================
+2024-11-13 02:48:09,754 - INFO - Starting experiment: Horizon 15
+2024-11-13 02:48:09,755 - INFO - Command: python rob831/hw4_part1/scripts/run_hw4_mb.py --exp_name q4_reacher_horizon15 --env_name reacher-hw4_part1-v0 --add_sl_noise --mpc_horizon 15 --num_agent_train_steps_per_iter 1000 --batch_size 800 --n_iter 15 --video_log_freq -1 --mpc_action_sampling_strategy 'random'
+2024-11-13 02:48:09,755 - INFO - Start time: 2024-11-13 02:48:09
+2024-11-13 03:13:43,577 - INFO - Experiment completed successfully
+2024-11-13 03:13:43,578 - INFO - Duration: 0:25:33.823084
+2024-11-13 03:13:45,580 - INFO - Running experiment for Horizon 30
+2024-11-13 03:13:45,581 - INFO - 
+==================================================
+2024-11-13 03:13:45,581 - INFO - Starting experiment: Horizon 30
+2024-11-13 03:13:45,581 - INFO - Command: python rob831/hw4_part1/scripts/run_hw4_mb.py --exp_name q4_reacher_horizon30 --env_name reacher-hw4_part1-v0 --add_sl_noise --mpc_horizon 30 --num_agent_train_steps_per_iter 1000 --batch_size 800 --n_iter 15 --video_log_freq -1 --mpc_action_sampling_strategy 'random'
+2024-11-13 03:13:45,581 - INFO - Start time: 2024-11-13 03:13:45
+2024-11-13 03:59:32,291 - INFO - Experiment completed successfully
+2024-11-13 03:59:32,291 - INFO - Duration: 0:45:46.709765
+2024-11-13 03:59:34,293 - INFO - 
+Creating plots for Planning Horizon...
+2024-11-13 03:59:34,311 - INFO - No path found after rob831/hw4_part1/scripts/../../data/hw4_q4_reacher_horizon5_reacher-hw4_part1-v0_13-11-2024_02-37-22/events.out.tfevents.1731483442.romerik-hacker
+2024-11-13 03:59:34,312 - INFO - Successfully loaded data for Horizon 5
+2024-11-13 03:59:34,330 - INFO - No path found after rob831/hw4_part1/scripts/../../data/hw4_q4_reacher_horizon15_reacher-hw4_part1-v0_13-11-2024_02-48-10/events.out.tfevents.1731484090.romerik-hacker
+2024-11-13 03:59:34,330 - INFO - Successfully loaded data for Horizon 15
+2024-11-13 03:59:34,343 - INFO - No path found after rob831/hw4_part1/scripts/../../data/hw4_q4_reacher_horizon30_reacher-hw4_part1-v0_13-11-2024_03-13-46/events.out.tfevents.1731485626.romerik-hacker
+2024-11-13 03:59:34,343 - INFO - Successfully loaded data for Horizon 30
+2024-11-13 03:59:34,665 - INFO - Saved plot: planning_horizon_comparison.png
+2024-11-13 03:59:34,666 - INFO - 
+Starting Action Sequences experiments...
+2024-11-13 03:59:34,666 - INFO - Running experiment for 100 Sequences
+2024-11-13 03:59:34,666 - INFO - 
+==================================================
+2024-11-13 03:59:34,666 - INFO - Starting experiment: 100 Sequences
+2024-11-13 03:59:34,666 - INFO - Command: python rob831/hw4_part1/scripts/run_hw4_mb.py --exp_name q4_reacher_numseq100 --env_name reacher-hw4_part1-v0 --add_sl_noise --mpc_horizon 10 --num_agent_train_steps_per_iter 1000 --batch_size 800 --n_iter 15 --mpc_num_action_sequences 100 --mpc_action_sampling_strategy 'random'
+2024-11-13 03:59:34,666 - INFO - Start time: 2024-11-13 03:59:34
+2024-11-13 04:13:05,654 - INFO - Experiment completed successfully
+2024-11-13 04:13:05,654 - INFO - Duration: 0:13:30.987735
+2024-11-13 04:13:07,656 - INFO - Running experiment for 1000 Sequences
+2024-11-13 04:13:07,656 - INFO - 
+==================================================
+2024-11-13 04:13:07,656 - INFO - Starting experiment: 1000 Sequences
+2024-11-13 04:13:07,657 - INFO - Command: python rob831/hw4_part1/scripts/run_hw4_mb.py --exp_name q4_reacher_numseq1000 --env_name reacher-hw4_part1-v0 --add_sl_noise --mpc_horizon 10 --num_agent_train_steps_per_iter 1000 --batch_size 800 --n_iter 15 --video_log_freq -1 --mpc_num_action_sequences 1000 --mpc_action_sampling_strategy 'random'
+2024-11-13 04:13:07,657 - INFO - Start time: 2024-11-13 04:13:07
+2024-11-13 04:31:01,393 - INFO - Experiment completed successfully
+2024-11-13 04:31:01,394 - INFO - Duration: 0:17:53.737080
+2024-11-13 04:31:03,394 - INFO - 
+Creating plots for Action Sequences...
+2024-11-13 04:31:03,410 - INFO - No path found after rob831/hw4_part1/scripts/../../data/hw4_q4_reacher_numseq100_reacher-hw4_part1-v0_13-11-2024_03-59-35/events.out.tfevents.1731488375.romerik-hacker
+2024-11-13 04:31:03,410 - INFO - Successfully loaded data for 100 Sequences
+2024-11-13 04:31:03,418 - INFO - No path found after rob831/hw4_part1/scripts/../../data/hw4_q4_reacher_numseq1000_reacher-hw4_part1-v0_13-11-2024_04-13-08/events.out.tfevents.1731489188.romerik-hacker
+2024-11-13 04:31:03,418 - INFO - Successfully loaded data for 1000 Sequences
+2024-11-13 04:31:03,688 - INFO - Saved plot: action_sequences_comparison.png
+2024-11-13 04:31:03,688 - INFO - 
+Starting Ensemble Size experiments...
+2024-11-13 04:31:03,688 - INFO - Running experiment for 1 Model
+2024-11-13 04:31:03,688 - INFO - 
+==================================================
+2024-11-13 04:31:03,688 - INFO - Starting experiment: 1 Model
+2024-11-13 04:31:03,688 - INFO - Command: python rob831/hw4_part1/scripts/run_hw4_mb.py --exp_name q4_reacher_ensemble1 --env_name reacher-hw4_part1-v0 --ensemble_size 1 --add_sl_noise --mpc_horizon 10 --num_agent_train_steps_per_iter 1000 --batch_size 800 --n_iter 15 --video_log_freq -1 --mpc_action_sampling_strategy 'random'
+2024-11-13 04:31:03,688 - INFO - Start time: 2024-11-13 04:31:03
+2024-11-13 04:37:30,272 - INFO - Experiment completed successfully
+2024-11-13 04:37:30,272 - INFO - Duration: 0:06:26.583620
+2024-11-13 04:37:32,274 - INFO - Running experiment for 3 Models
+2024-11-13 04:37:32,275 - INFO - 
+==================================================
+2024-11-13 04:37:32,275 - INFO - Starting experiment: 3 Models
+2024-11-13 04:37:32,275 - INFO - Command: python rob831/hw4_part1/scripts/run_hw4_mb.py --exp_name q4_reacher_ensemble3 --env_name reacher-hw4_part1-v0 --ensemble_size 3 --add_sl_noise --mpc_horizon 10 --num_agent_train_steps_per_iter 1000 --batch_size 800 --n_iter 15 --video_log_freq -1 --mpc_action_sampling_strategy 'random'
+2024-11-13 04:37:32,275 - INFO - Start time: 2024-11-13 04:37:32
+2024-11-13 04:55:15,399 - INFO - Experiment completed successfully
+2024-11-13 04:55:15,399 - INFO - Duration: 0:17:43.124323
+2024-11-13 04:55:17,401 - INFO - Running experiment for 5 Models
+2024-11-13 04:55:17,402 - INFO - 
+==================================================
+2024-11-13 04:55:17,402 - INFO - Starting experiment: 5 Models
+2024-11-13 04:55:17,402 - INFO - Command: python rob831/hw4_part1/scripts/run_hw4_mb.py --exp_name q4_reacher_ensemble5 --env_name reacher-hw4_part1-v0 --ensemble_size 5 --add_sl_noise --mpc_horizon 10 --num_agent_train_steps_per_iter 1000 --batch_size 800 --n_iter 15 --video_log_freq -1 --mpc_action_sampling_strategy 'random'
+2024-11-13 04:55:17,402 - INFO - Start time: 2024-11-13 04:55:17
+2024-11-13 05:24:44,265 - INFO - Experiment completed successfully
+2024-11-13 05:24:44,265 - INFO - Duration: 0:29:26.863228
+2024-11-13 05:24:46,266 - INFO - 
+Creating plots for Ensemble Size...
+2024-11-13 05:24:46,280 - INFO - No path found after rob831/hw4_part1/scripts/../../data/hw4_q4_reacher_ensemble1_reacher-hw4_part1-v0_13-11-2024_04-31-04/events.out.tfevents.1731490264.romerik-hacker
+2024-11-13 05:24:46,280 - INFO - Successfully loaded data for 1 Model
+2024-11-13 05:24:46,287 - INFO - No path found after rob831/hw4_part1/scripts/../../data/hw4_q4_reacher_ensemble3_reacher-hw4_part1-v0_13-11-2024_04-37-32/events.out.tfevents.1731490652.romerik-hacker
+2024-11-13 05:24:46,288 - INFO - Successfully loaded data for 3 Models
+2024-11-13 05:24:46,292 - INFO - No path found after rob831/hw4_part1/scripts/../../data/hw4_q4_reacher_ensemble5_reacher-hw4_part1-v0_13-11-2024_04-55-17/events.out.tfevents.1731491717.romerik-hacker
+2024-11-13 05:24:46,292 - INFO - Successfully loaded data for 5 Models
+2024-11-13 05:24:46,572 - INFO - Saved plot: ensemble_size_comparison.png
+2024-11-13 05:24:46,573 - INFO - All experiments and analysis complete!
